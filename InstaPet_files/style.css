@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(252, 252, 252, 0.911);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: blue;
+    
+}
+
+.columna {
+  
+    margin-left: 780px;
+    margin-right: 20px;
+    padding-top: 80PX;
+}
+
+.info {
+    padding-bottom: 10px;
+    text-align: justify;
+    width: auto;
+    background-color: rgb(220, 182, 255);
+    margin-left: 20px;
+    margin-right: 780px;
+}
+
+.img {
+    display: block;
+    text-align: center;
+    height: auto;
+}
+
+.navbar-menu{
+      background-color:rgba(161, 178, 255, 0.966);
+}

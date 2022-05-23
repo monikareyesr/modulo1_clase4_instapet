@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar-menu" id="open-navbar1">
+        <ul class="navbar-nav">
+            <li class="active"><a href="#">INICIO</a></li> <!-- con esto cambiara color al hacer un link sobre texto-->
+            <li class="navbar-dropdown">
+                <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                    PAGINA2<i class="fa fa-angle-down">
+            </li> <!-- solo a modo de Ej. de uso de menu, no hay pagina 2-->
+            </a>
+    </div>
+
+    <h1>BIENVENIDOS A INSTAPET</h1>
+    <div class="img">
+        <img src="pet.jpg" alt="img_inicio">
+    </div>
+
+    <div id="content">
+        <div id="object1">
+            <p>
+                InstaPet, es el resultado de un maravilloso estudio de mercado, nuestra empresa nace del amor y
+                respeto por
+                los animales. Nos preocupados dia a dia de mantener productos de excelente calidad para el
+                cuidado y
+                alimentacion de los animales de compañia. Ellos se merecen siempre lo mejor.</p>
+
+            <p> Nuestras mascotas son lo más importante, aprender a entender sus comportamientos, las cosas que le
+                gustan y las que no, así como educarnos a nosotros mismos con la tenencia responsable de nuestros bebes
+                mejorará la calidad de vida de ellos como de nosotros.
+
+                Por esto, ponemos a tu disposición contenido de calidad y educativo para aprender a entender a tu
+                mascota. ¡Vamos a ello!</p>
+        </div>
+
+        <div id="object2">
+            <form method="GET">
+                <h2>COMPLETA ESTE FORMULARIO</h2>
+                <p><label>Nombre:<input type="text" name="nombre" class="ancho"
+                            placeholder="Ingrese nombre de su mascota" required></label></p>
+                <p> <label> Edad:<input type="number" name="edad" class="ancho" placeholder="Ingrese edad de su mascota"
+                            required></label></p>
+                <p> <label> Color:<input type="color" name="color" class="ancho"
+                            placeholder="Ingrese color de su mascota" required></label></p>
+                <p><label>Correo:</label><input type="mail" name="correo" class="ancho" placeholder="Ingrese su correo"
+                        required></label> </p>
+                <p> <label>Clave:</label><input type="password" name="clave" class="ancho"
+                        placeholder="Ingrese su clave porfavor" required></label></p>
+                <p> <textarea name="comentarios" id="" cols="50" rows="10"
+                        placeholder="Ingrese sus comentarios"></textarea></p>
+                <br>
+                <input class="terminos" type="checkbox" name="terminos" value="ckeck">
+                <label>Acepta nuestros terminos y condiciones</label>
+                <p><input type="submit"></p>
+            </form>
+
+            <h3>Algunos videos.</h3>
+            <iframe id="externo1" width="450" height="350" src="https://www.youtube.com/embed/iisvQzixU4s"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <h3>Nuestros asociados</h3>
+            <iframe id="externo2"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1596.7008944170027!2d-73.05536592774195!3d-36.8328523508523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b5d8330f7485%3A0xf358ad271866d626!2sVETERINARIA%20MASCOTI%20E.I.R.L.!5e0!3m2!1ses-419!2scl!4v1653343255772!5m2!1ses-419!2scl"
+                width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>
